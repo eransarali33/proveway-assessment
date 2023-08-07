@@ -237,6 +237,17 @@ input[type="radio"]:checked {
   .cards-B p {
     font-size: small;
   }
+
+  .size {
+    height: 11%;
+    width: 17%;
+  }
+
+  .colour {
+    height: 11%;
+    width: 24%;
+    margin: 0 2%;
+  }
 }
 
 /* ------------ */
