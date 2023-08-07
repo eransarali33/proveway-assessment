@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <p class="heading">Bundle & Save</p>
+
+      <!-- 1 -->
+      <div class="cards" id="org-card1">
+        <div class="card-1">
+          <input type="radio" name="radio-btn" onclick="showDetails1()" />
+          <div class="card-1a">
+            <p>1 Pair</p>
+            <p>DKK 195.00</p>
+          </div>
+        </div>
+        <div class="card-2">
+          <p>50% OFF</p>
+        </div>
+      </div>
+      <!-- Hidden -->
+
+      <div class="cards-B" id="hidden-card1">
+        <div class="card-1A">
+          <div class="card-1">
+            <input
+              type="radio"
+              name="radio-btn"
+              value="option1"
+              checked
+              id="hidden-radio1"
+              onclick="hideDetails()"
+            />
+            <div class="card-1a">
+              <p>1 Pair</p>
+              <p>DKK 195.00</p>
+            </div>
+          </div>
+          <div>
+            <p class="cross-value">DKK 195.00</p>
+          </div>
+          <div class="card-2">
+            <p class="card-2a">Most Popular</p>
+            <p>50% OFF</p>
+          </div>
+        </div>
+        <div class="card-2A">
+          <span class="card-2AB">
+            <p class="card-2A1">Size</p>
+            <p class="card-2A2">Colour</p>
+          </span>
+          <span class="card-2AB">
+            <p class="num">#1</p>
+            <select name="size" class="size">
+              <option value="s">S</option>
+            </select>
+            <select name="colour" class="colour">
+              <option value="col">Colour</option>
+            </select>
+          </span>
+          <span class="card-2AB">
+            <p class="num">#2</p>
+            <select name="size" class="size">
+              <option value="s">S</option>
+            </select>
+            <select name="colour" class="colour">
+              <option value="col">Colour</option>
+            </select>
+          </span>
+        </div>
+      </div>
+
+      <!-- 2 -->
+
+      <div class="cards" id="org-card2">
+        <div class="card-1">
+          <input type="radio" name="radio-btn" onclick="showDetails2()" />
+          <div class="card-1a">
+            <p>2 Pair</p>
+            <p>DKK 345.00</p>
+          </div>
+        </div>
+        <div class="card-2">
+          <p class="offers">40% OFF</p>
+        </div>
+      </div>
+
+      <!-- Hidden -->
+
+      <div class="cards-B" id="hidden-card2">
+        <div class="card-1A">
+          <div class="card-1">
+            <input
+              type="radio"
+              name="radio-btn"
+              value="option2"
+              checked
+              id="hidden-radio2"
+              onclick="hideDetails()"
+            />
+            <div class="card-1a">
+              <p>2 Pair</p>
+              <p>DKK 345.00</p>
+            </div>
+          </div>
+          <div>
+            <p class="cross-value">DKK 195.00</p>
+          </div>
+          <div class="card-2">
+            <p class="card-2a">Most Popular</p>
+            <p>40% OFF</p>
+          </div>
+        </div>
+        <div class="card-2A">
+          <span class="card-2AB">
+            <p class="card-2A1">Size</p>
+            <p class="card-2A2">Colour</p>
+          </span>
+          <span class="card-2AB">
+            <p class="num">#1</p>
+            <select name="size" class="size">
+              <option value="s">S</option>
+            </select>
+            <select name="colour" class="colour">
+              <option value="col">Colour</option>
+            </select>
+          </span>
+          <span class="card-2AB">
+            <p class="num">#2</p>
+            <select name="size" class="size">
+              <option value="s">S</option>
+            </select>
+            <select name="colour" class="colour">
+              <option value="col">Colour</option>
+            </select>
+          </span>
+        </div>
+      </div>
+
+      <!-- 3 -->
+
+      <div class="cards" id="org-card3">
+        <div class="card-1">
+          <input type="radio" name="radio-btn" onclick="showDetails3()" />
+          <div class="card-1a">
+            <p>3 Pair</p>
+            <p>DKK 528.00</p>
+          </div>
+        </div>
+        <div class="card-2">
+          <p>60% OFF</p>
+        </div>
+      </div>
+
+      <!-- Hidden -->
+
+      <div class="cards-B" id="hidden-card3">
+        <div class="card-1A">
+          <div class="card-1">
+            <input
+              type="radio"
+              name="radio-btn"
+              value="option3"
+              checked
+              id="hidden-radio3"
+              onclick="hideDetails()"
+            />
+            <div class="card-1a">
+              <p>3 Pair</p>
+              <p>DKK 528.00</p>
+            </div>
+          </div>
+          <div>
+            <p class="cross-value">DKK 195.00</p>
+          </div>
+          <div class="card-2">
+            <p class="card-2a">Most Popular</p>
+            <p>60% OFF</p>
+          </div>
+        </div>
+        <div class="card-2A">
+          <span class="card-2AB">
+            <p class="card-2A1">Size</p>
+            <p class="card-2A2">Colour</p>
+          </span>
+          <span class="card-2AB">
+            <p class="num">#1</p>
+            <select name="size" class="size">
+              <option value="s">S</option>
+            </select>
+            <select name="colour" class="colour">
+              <option value="col">Colour</option>
+            </select>
+          </span>
+          <span class="card-2AB">
+            <p class="num">#2</p>
+            <select name="size" class="size">
+              <option value="s">S</option>
+            </select>
+            <select name="colour" class="colour">
+              <option value="col">Colour</option>
+            </select>
+          </span>
+        </div>
+      </div>
+
+      <!-- Bottom -->
+      <span class="footer-1">
+        <p class="one">Free 2 Day Shipping</p>
+        <p class="two">Total : DKK 360.00</p>
+      </span>
+      <button class="btn">+ Add to Cart</button>
+      <p class="footer-2">&copy; Powered by Pumper</p>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
