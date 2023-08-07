@@ -80,6 +80,11 @@ body {
   flex-direction: column;
 }
 
+.offers {
+  display: flex;
+  align-self: flex-end;
+}
+
 .cards-B {
   border: 2px solid green;
   background-color: rgb(248, 245, 245);
